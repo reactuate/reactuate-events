@@ -101,6 +101,12 @@ while (true) {
   // ...
 ```
 
+It is worth mentioning that it is unlikely to be a good practice to try to jam
+all possible events into one event processor per component. It'll become rather
+complicated. Instead, a number of small processors can be used and when their
+proceedings are ready to be aggregated, they can trigger aggregation events
+themselves.
+
 # License
 
 Reactuate is licensed under the terms of the Apache 2.0 license.
