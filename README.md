@@ -1,3 +1,6 @@
+[![npm package][npm-badge]][npm]
+[![dependencies][david-dm]][david]
+
 # Reactuate Events
 
 Reactuate Events is an answer to maintaining complex single-component UX
@@ -101,3 +104,8 @@ while (true) {
 # License
 
 Reactuate is licensed under the terms of the Apache 2.0 license.
+
+[npm]: https://www.npmjs.org/package/reactuate-events
+[npm-badge]: https://img.shields.io/npm/v/reactuate-events.svg
+[david-dm]: https://david-dm.org/reactuate/reactuate-events.svg
+[david]: https://david-dm.org/reactuate/reactuate-events
