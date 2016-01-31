@@ -1,6 +1,6 @@
 {
   "name": "reactuate-events",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Synchronous React component events orchestration",
   "main": "index.js",
   "scripts": {
