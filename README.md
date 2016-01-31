@@ -22,6 +22,8 @@ one can write a sequential event handling function.
 In order to enable component to use Reactuate Events, we need to compose it with `enableEvents`:
 
 ```js
+import { enableEvents } from 'reactuate-events'
+
 class MyComponent extends React.Component {}
 
 MyComponent = enableEvents(MyComponent)
