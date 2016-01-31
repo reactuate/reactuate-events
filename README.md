@@ -3,7 +3,8 @@
 Reactuate Events is an answer to maintaining complex single-component UX
 workflows in React that do not exactly fit into the Flux architecture as they
 don't belong to the global state of the application and should be rather kept
-inside of the component.
+inside of the component. Most common examples of that would be generic components such as complex table navigators, forms with complex validation
+and verification workflows.
 
 Traditional answer to this is to use callbacks that modify the state to reflect
 where the user is at and what should be rendered to him. The problem with this
