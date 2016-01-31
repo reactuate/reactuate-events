@@ -18,7 +18,7 @@ of the complexity of servicing all potential scenarios.
 Reactuate Events uses an **experimental** ES7 feature of [asynchronous functions](https://tc39.github.io/ecmascript-asyncawait/) to reduce the complexity of this problem. Instead of connecting disjoint pieces,
 one can write a sequential event handling function.
 
-*Please note that this is an extremely early prototype, and bugs are very likely and API* **will** *change.*
+*Please note that this is an extremely early prototype, and bugs are very likely and the API* **will** *change.*
 
 ## Enabling Events
 
@@ -100,6 +100,9 @@ while (true) {
   if (result === Timeout) {
   // ...
 ```
+
+(Actually, `Timeout` and a generic version of `waitForTimeout` are also provided
+by this library)
 
 It is worth mentioning that it is unlikely to be a good practice to try to jam
 all possible events into one event processor per component. It'll become rather
