@@ -24,7 +24,7 @@
   "homepage": "https://github.com/reactuate/reactuate-events#readme",
   "devDependencies": {
     "bluebird": "^3.1.5",
-    "reactuate": "^0.1.14"
+    "reactuate": "^0.1.16"
   },
   "dependencies": {
     "babel-core": "^6.4.5",
