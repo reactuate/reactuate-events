@@ -109,7 +109,7 @@ themselves.
 
 # License
 
-Reactuate is licensed under the terms of the Apache 2.0 license.
+Reactuate Events is licensed under the terms of the Apache 2.0 license.
 
 [npm]: https://www.npmjs.org/package/reactuate-events
 [npm-badge]: https://badge.fury.io/js/reactuate-events.svg
