@@ -18,6 +18,10 @@ of the complexity of servicing all potential scenarios.
 Reactuate Events uses an **experimental** ES7 feature of [asynchronous functions](https://tc39.github.io/ecmascript-asyncawait/) to reduce the complexity of this problem. Instead of connecting disjoint pieces,
 one can write a sequential event handling function.
 
+This library's benefit comes at the expense of a somewhat reduced utility of
+hot code replacement (if you use it), since your asynchronous processor
+function won't change midway. That said, the functionality provided by such functions often implies changes to state management in the component, or change in logic, which would often require a reload anyway.
+
 *Please note that this is an extremely early prototype, bugs are very likely and the API* **will** *change.*
 
 ## Enabling Events
