@@ -1,7 +1,7 @@
 import { React, Route, Application,
          connect, bindActionCreators } from 'reactuate'
 
-import { enableEvents } from '../src'
+import { enableEvents, Timeout, waitForTimeout } from '../src'
 
 import Promise from 'bluebird'
 
@@ -23,9 +23,8 @@ class Example extends React.Component {
   }
 
   async processor() {
-    const Timeout = Symbol("timeout")
     while (true) {
-      const result = await Promise.any([this.waitForButtonClick, new Promise((resolve) => setTimeout(() => resolve(Timeout), 3000))])
+      const result = await Promise.any([this.waitForButtonClick, waitForTimeout(3000)])
       if (result === Timeout) {
         this.setStateAndWait({sayHello: true})
       } else {

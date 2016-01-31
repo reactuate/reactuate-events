@@ -24,3 +24,10 @@ export function enableEvents(Component) {
   }
   return EventedComponent
 }
+
+export const Timeout = Symbol("Timeout")
+
+export function waitForTimeout(timeout = 0) {
+  return new Promise(resolve =>
+          setTimeout(() => resolve(Timeout), timeout))
+}
