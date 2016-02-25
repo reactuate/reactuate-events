@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/reactuate/reactuate-events#readme",
   "devDependencies": {
-    "bluebird": "^3.1.5",
+    "bluebird": "^3.3.3",
     "reactuate": "^0.1.14"
   },
   "dependencies": {
